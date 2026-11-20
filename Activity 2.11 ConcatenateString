@@ -1,0 +1,28 @@
+
+import java.util.Scanner;
+
+public class ConcatenateString {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        // Get user inputs
+        System.out.print("Enter a person's name:Jake ");
+        String name = input.nextLine();
+
+        System.out.print("Enter a favorite color:Blue ");
+        String color = input.nextLine();
+
+        System.out.print("Enter a favorite animal:Dog ");
+        String animal = input.nextLine();
+
+        System.out.print("Enter a favorite food:Hamburger ");
+        String food = input.nextLine();
+
+        // Display the concatenated sentences
+        System.out.println("I had a dream that " + name + " ate a");
+        System.out.println(color + " " + animal + " and said it tasted like " + food + "!");
+
+        input.close();
+    }
+}
