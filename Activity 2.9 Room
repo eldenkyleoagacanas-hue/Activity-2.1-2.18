@@ -1,0 +1,17 @@
+public class Room {
+    public static void main(String[] args) {
+
+        // Declare and assign variables
+        int length = 20;
+        int width = 15;
+
+        // Compute the floor space
+        int floorSpace = length * width;
+
+        // Display the result
+        System.out.println("The length of the room is " + length + " feet.");
+        System.out.println("The width of the room is " + width + " feet.");
+        System.out.println("The floor space is " + floorSpace + " square feet.");
+
+    }
+}
